@@ -1,3 +1,6 @@
 app.use will match all http method api calls to
 
 
+app.get('/ab?c') ?-means  b is optional
+app.get('/ab+c)  +- any no.of b's can be present in b/w a and c
+app.get('/ab*c)  *- anything can be preent cbetween ab and c
